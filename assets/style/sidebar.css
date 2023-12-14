@@ -1,0 +1,30 @@
+.sidebar {width: 20%; min-width: 250px; background-color: #3317d1; padding: 2% 0;
+                      
+    position: fixed;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+
+    }
+
+.sidebar-link{
+   height: 55px;
+   display: flex;
+   align-items: center;
+   background-color: #3317d1;
+   cursor:pointer;
+   margin-left: 15px;
+
+
+}
+.sidebar-link:hover {
+background-color: #0f9790;
+margin-right: 15px;
+}
+
+.sidebar-link div { display: inline-block; margin-left: 15px;
+               color: rgb(17, 7, 7); font-size: 14px;}
+.home-icon { height: 45px;}
+.shorts-icon { height: 45px;}
+.subs-icon { height: 45px;}
+.history-icon { height: 45px;}
